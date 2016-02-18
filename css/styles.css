@@ -4,12 +4,14 @@
   box-sizing: border-box;
 }
  /*For testing only */
- :not(body):not(html) {
+ /*:not(body):not(html) {
   border:1px dashed red;
-}
+}*/
+
 body {
   background-color: black;
   padding: 10px;
+  margin: 0 auto;
 }
 
 .header {
@@ -41,6 +43,7 @@ body {
 .pictureInfo {
   color: white;
 }
+
 .pictureInfo h3 {
   margin-top: 10px;
   margin-bottom: 0;
@@ -68,14 +71,25 @@ body {
     padding: 10px;
     margin: 0;
   }
+
+  .main {
+    border-bottom: 10px solid #fff;
+  }
+
+  .columns {
+    margin: 0;
+    padding: 0;
+  }
+
+  .press {
+    height: 26vh;
+    border-right: 5px solid #fff;
+  }
+
   .callout {
     background-color: black;
   }
 
-  .columns {
-    margin: 2px;
-    border-color: white;
-  }
 
 
   /*.sub-nav {
